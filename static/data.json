@@ -1,0 +1,15 @@
+{
+    "data":{
+        "categories": [
+            {
+                "name": "SNACKS/SALAD/PASTA",
+                "menuItems": [
+                    {
+                        "title":"ΤΟΣΤ ΜΕ ΖΑΜΠΟΝ Ή ΓΑΛΟΠΟΥΛΑ & ΤΥΡΙ / HAM OR TURKEY & CHEESE TOAST",
+                        "price": "€ 3,30 "
+                    }
+                ]
+            }
+        ]
+    }
+}
