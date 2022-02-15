@@ -11,6 +11,20 @@ export default class Index extends React.Component {
     return { data };
   }
   render() {
-    return <Menu data={this.props.data} />;
+      return(
+        <React.Fragment>
+        <Menu data={this.props.data} />
+        <style global jsx>{`
+            html,
+            body {
+            padding: 0;
+            margin: 0;
+            }
+            * {
+            box-sizing: border-box;
+            }
+        `}</style>
+        </React.Fragment>
+  );
   }
 }
