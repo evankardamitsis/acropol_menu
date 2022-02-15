@@ -61,13 +61,18 @@ const Logo = () => (
         grid-column-start: 2;
         padding: 20px;
         font-family: "Proxima Nova", sans-serif;
-        letter-spacing: 10px;
         font-weight: 300;
         font-size: 5rem;
       }
     `}</style>
     </h1>
   );
+
+const Subtitle = () => (
+    <h3>
+        Room Service
+    </h3>
+);
 
   const Category = ({ data = { subcategories: [] }, ...props }) => (
     <section className="category" {...props}>
@@ -89,7 +94,7 @@ const Logo = () => (
       }
       @media (min-width: 750px) {
         .category {
-          grid-template-columns: 1fr 700px 1fr;
+          grid-template-columns: 1fr 1500px 1fr;
         }
       }
       .category > :global(div) {
@@ -111,11 +116,11 @@ const Logo = () => (
             color: #202021;
             background: #eee;
             /* System font stack: https://css-tricks.com/snippets/css/system-font-stack/ */
-            font-family: "Proxima Nova", sans-serif;
+            font-family: "Proxima Nova", "Open Sans", sans-serif;
             padding: 10px;
             max-width: 100%;
             overflow: hidden;
-            min-height: 100vh;git
+            min-height: 100vh;
           }
         `}</style>
       </article>
