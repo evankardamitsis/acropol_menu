@@ -29,6 +29,27 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
         margin-bottom: 10px;
         font-family: "Proxima Nova", sans-serif;
       }
+      @media (max-width: 1140px) {
+        li {
+          font-size:0.9rem;
+          display:flex;
+          flex-wrap:wrap;
+          justify-content:start;
+        }
+      }
+      @media (min-width: 820px) {
+         .subcategory > li {
+          font-size:1rem;
+          justify-content:start;
+        }
+      }
+      @media (max-width: 390px) {
+         li {
+          font-size: 0.8rem;
+          justify-content:flex-start;
+          flex-wrap: nowrap;
+        }
+      }
       .subcategory {
         display: flex;
         flex-direction: column;
@@ -37,13 +58,22 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
       }
       @media (min-width: 750px) {
         .subcategory {
-          flex-direction: row;
+          flex-direction: column;
         }
       }
       .subcategory > h2 {
         font-size: 3rem;
         margin-right: 20px;
         margin-bottom: 20px;
+      }
+      @media(max-width:390px){
+          .subcategory > h2 {
+              font-size:2rem;
+              margin-right:12px;
+          }
+          .price{
+             font-weight: 600;   
+          }
       }
       .price {
         margin-left: 20px;
@@ -64,15 +94,10 @@ const Logo = () => (
         font-weight: 300;
         font-size: 5rem;
       }
-    `}</style>
+    `}</style>  
     </h1>
   );
-
-const Subtitle = () => (
-    <h3>
-        Room Service
-    </h3>
-);
+  
 
   const Category = ({ data = { subcategories: [] }, ...props }) => (
     <section className="category" {...props}>
@@ -82,10 +107,10 @@ const Subtitle = () => (
       ))}
       <style jsx>{`
       .category:nth-child(even) {
-        background: #e9ebf0;
+        background: #ebebeb;
       }
       .category:nth-child(odd) {
-        background: #e9ebf0;
+        background: #f7f5f5;
       }
       .category {
         padding: 20px;
@@ -94,7 +119,7 @@ const Subtitle = () => (
       }
       @media (min-width: 750px) {
         .category {
-          grid-template-columns: 1fr 1500px 1fr;
+          grid-template-columns: 1fr 1100px 1fr;
         }
       }
       .category > :global(div) {
@@ -116,7 +141,7 @@ const Subtitle = () => (
             color: #202021;
             background: #eee;
             /* System font stack: https://css-tricks.com/snippets/css/system-font-stack/ */
-            font-family: "Proxima Nova", "Open Sans", sans-serif;
+            /* font-family: "Proxima Nova", "Open Sans", sans-serif; */
             padding: 10px;
             max-width: 100%;
             overflow: hidden;
