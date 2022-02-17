@@ -43,12 +43,13 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
           justify-content:start;
         }
       }
-      @media (max-width: 390px) {
+      @media (max-width: 414px) {
          li {
           font-size: 0.8rem;
           justify-content:flex-start;
           flex-wrap: nowrap;
           text-align:center;
+          display: flow-root;
         }
       }
       .subcategory {
@@ -62,7 +63,7 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
           flex-direction: column;
         }
       }
-      @media(max-width: 390px){
+      @media(max-width: 414px){
           .subcategory{
               text-align:center;
           }
@@ -72,13 +73,14 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
         margin-right: 20px;
         margin-bottom: 20px;
       }
-      @media(max-width:390px){
+      @media(max-width:414px){
           .subcategory > h2 {
               font-size:2rem;
               margin-right:12px;
           }
           .price{
-             font-weight: 600;   
+             font-weight: 600; 
+             white-space: pre;  
           }
       }
       .price {
@@ -100,7 +102,7 @@ const Logo = () => (
         font-weight: 300;
         font-size: 5rem;
       }
-      @media(max-width: 390px){
+      @media(max-width: 414px){
           h1{
               text-align:center;
           }

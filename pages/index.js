@@ -14,7 +14,7 @@ export default class Index extends React.Component {
   }
   render() {
       return(
-        <React.Fragment>
+        <React.Fragment>    
         <Menu data={this.props.data} />
         <style global jsx>{`
             html,

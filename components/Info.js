@@ -11,20 +11,22 @@ const Info = () => {
           .info {
             color: #202021;
             background: #F7F5F5;
-            padding: 10px;
+            padding: 40px;
             max-width: 100%;
             overflow: hidden;
             display: grid;
             justify-content:center; 
             grid-column-start: auto;
             font-family: "Proxima Nova", sans-serif;
+            text-align:center;
           }
           .info > p {
               font-size: 0.7rem;
           }
-          @media(max-width:390px){
+          @media(max-width:414px){
               .info{
                   text-align:center;
+                  padding:40px;
               }
               h2{
                   font-size:1rem;
