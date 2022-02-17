@@ -8,67 +8,67 @@
                        "name": "SNACKS / SALAD / PASTA",
                         "menuItems": [
                     {
-                        "title":"ΤΟΣΤ ΜΕ ΖΑΜΠΟΝ Ή ΓΑΛΟΠΟΥΛΑ & ΤΥΡΙ / HAM OR TURKEY & CHEESE TOAST",
+                        "description":"ΤΟΣΤ ΜΕ ΖΑΜΠΟΝ Ή ΓΑΛΟΠΟΥΛΑ & ΤΥΡΙ / HAM OR TURKEY & CHEESE TOAST",
                         "price": "€ 3,30 "
                     },
                     {
-                        "title":"CLUB SANDWICH ΜΕ ΤΗΓΑΝΙΤΕΣ ΠΑΤΑΤΕΣ / CLUB SANDWICH WITH FRENCH FRIES",
+                        "description":"CLUB SANDWICH ΜΕ ΤΗΓΑΝΙΤΕΣ ΠΑΤΑΤΕΣ / CLUB SANDWICH WITH FRENCH FRIES",
                         "price": "€ 6,60 "
                     },
                     {
-                        "title":"ΟΜΕΛΕΤΑ / OMELET",
+                        "description":"ΟΜΕΛΕΤΑ / OMELET",
                         "price": "€ 5,00 "
                     },
                     {
-                        "title":"ΟΜΕΛΕΤΑ ΜΕ ΤΥΡΙ ΖΑΜΠΟΝ ΝΤΟΜΑΤΑ & ΠΙΠΕΡΙΑ / HAM & CHEESE OMELET WITH TOMATO &  BELL PEPPER",
+                        "description":"ΟΜΕΛΕΤΑ ΜΕ ΤΥΡΙ ΖΑΜΠΟΝ ΝΤΟΜΑΤΑ & ΠΙΠΕΡΙΑ / HAM & CHEESE OMELET WITH TOMATO &  BELL PEPPER",
                         "price": "€ 6,60 "
                     },
                     {
-                        "title":"ΠΑΤΑΤΕΣ ΤΗΓΑΝΙΤΕΣ / FRENCH FRIES",
+                        "description":"ΠΑΤΑΤΕΣ ΤΗΓΑΝΙΤΕΣ / FRENCH FRIES",
                         "price": "€ 4,40 "
                     },
                     {
-                        "title":"ΣΑΛΑΤΑ ΧΩΡΙΑΤΙΚΗ / GREEK TRADITIONAL SALAD",
+                        "description":"ΣΑΛΑΤΑ ΧΩΡΙΑΤΙΚΗ / GREEK TRADITIONAL SALAD",
                         "price": "€ 7,00 "
                     },
                     {
-                        "title":"ΣΑΛΑΤΑ ΚΑΙΣΑΡΑ / CAESAR'S SALAD",
+                        "description":"ΣΑΛΑΤΑ ΚΑΙΣΑΡΑ / CAESAR'S SALAD",
                         "price": "€ 8,00 "
                     },
                     {
-                        "title":"ΚΡΗΤΙΚΟΣ ΝΤΑΚΟΣ / CRETAN DAKOS (rusks with tomato, feta cheese & capers)",
+                        "description":"ΚΡΗΤΙΚΟΣ ΝΤΑΚΟΣ / CRETAN DAKOS (rusks with tomato, feta cheese & capers)",
                         "price": "€ 7,70 "
                     },
                     {
-                        "title":"ΣΑΛΑΤΑ ΕΠΟΧΗΣ / SEASONAL SALAD",
+                        "description":"ΣΑΛΑΤΑ ΕΠΟΧΗΣ / SEASONAL SALAD",
                         "price": "€ 5,50 "
                     },
                     {
-                        "title":"ΣΟΥΠΑ ΗΜΕΡΑΣ / SOUP OF THE DAY",
+                        "description":"ΣΟΥΠΑ ΗΜΕΡΑΣ / SOUP OF THE DAY",
                         "price": "€ 5,50 "
                     },
                     {
-                        "title":"ΣΠΑΓΓΕΤΙ ΜΠΟΛΟΝΕΖ / SPAGHETTI BOLOGNESE",
+                        "description":"ΣΠΑΓΓΕΤΙ ΜΠΟΛΟΝΕΖ / SPAGHETTI BOLOGNESE",
                         "price": "€ 8,00 "
                     },
                     {
-                        "title":"ΣΠΑΓΓΕΤΙ ΝΑΠΟΛΙΤΑΝΑ / SPAGHETTI NAPOLETANA",
+                        "description":"ΣΠΑΓΓΕΤΙ ΝΑΠΟΛΙΤΑΝΑ / SPAGHETTI NAPOLETANA",
                         "price": "€ 6,60 "
                     },
                     {
-                        "title":"ΣΠΑΓΓΕΤΙ ΠΕΣΤΟ / SPAGHETTI PESTO",
+                        "description":"ΣΠΑΓΓΕΤΙ ΠΕΣΤΟ / SPAGHETTI PESTO",
                         "price": "€ 8,00 "
                     },
                     {
-                        "title":"ΦΡΕΣΚΑ ΦΡΟΥΤΑ ΕΠΟΧΗΣ / FRESH FRUITS OF THE SEASON",
+                        "description":"ΦΡΕΣΚΑ ΦΡΟΥΤΑ ΕΠΟΧΗΣ / FRESH FRUITS OF THE SEASON",
                         "price": "€ 5,50 "
                     },
                     {
-                        "title":"ΓΙΑΟΥΡΤΙ ΜΕ ΜΕΛΙ / YOGURT WITH HONEY",
+                        "description":"ΓΙΑΟΥΡΤΙ ΜΕ ΜΕΛΙ / YOGURT WITH HONEY",
                         "price": "€ 4,00 "
                     },
                     {
-                        "title":"ΓΛΥΚΟ ΗΜΕΡΑΣ / DESSERT OF THE DAY",
+                        "description":"ΓΛΥΚΟ ΗΜΕΡΑΣ / DESSERT OF THE DAY",
                         "price": "€ 5,50 "
                     }
                 ]
@@ -77,79 +77,79 @@
                 "name": "COFFEE / SOFT DRINKS / BEVERAGES",
                 "menuItems":[
                     {
-                        "title":"ΚΑΦΕΣ ΕΛΛΗΝΙΚΟΣ / GREEK COFFEE",
+                        "description":"ΚΑΦΕΣ ΕΛΛΗΝΙΚΟΣ / GREEK COFFEE",
                         "price": "€ 2,20 "
                     },
                     {
-                        "title":"ΚΑΦΕΣ ΕΛΛΗΝΙΚΟΣ ΔΙΠΛΟΣ / DOUBLE GREEK COFFEE",
+                        "description":"ΚΑΦΕΣ ΕΛΛΗΝΙΚΟΣ ΔΙΠΛΟΣ / DOUBLE GREEK COFFEE",
                         "price": "€ 3,30 "
                     },
                     {
-                        "title":"NESCAFÉ / FRAPPÉ",
+                        "description":"NESCAFÉ / FRAPPÉ",
                         "price": "€ 3,30 "
                     },
                     {
-                        "title":"ESPRESSO",
+                        "description":"ESPRESSO",
                         "price": "€ 2,80 "
                     },
                     {
-                        "title":"DOUBLE ESPRESSO",
+                        "description":"DOUBLE ESPRESSO",
                         "price": "€ 3,30 "
                     },
                     {
-                        "title":"CAPPUCCINO",
+                        "description":"CAPPUCCINO",
                         "price": "€ 3,80 "
                     },
                     {
-                        "title":"DOUBLE CAPPUCCINO",
+                        "description":"DOUBLE CAPPUCCINO",
                         "price": "€ 4,40 "
                     },
                     {
-                        "title":"FREDDO ESPRESSO",
+                        "description":"FREDDO ESPRESSO",
                         "price": "€ 3,30 "
                     },
                     {
-                        "title":"FREDDO CAPPUCCINO",
+                        "description":"FREDDO CAPPUCCINO",
                         "price": "€ 3,80 "
                     },
                     {
-                        "title":"ΚΑΦΕΣ ΦΙΛΤΡΟΥ / FILTERED COFFEE",
+                        "description":"ΚΑΦΕΣ ΦΙΛΤΡΟΥ / FILTERED COFFEE",
                         "price": "€ 3,30 "
                     },
                     {
-                        "title":"ΣΟΚΟΛΑΤΑ ΡΟΦΗΜΑ / HOT CHOCOLATE",
+                        "description":"ΣΟΚΟΛΑΤΑ ΡΟΦΗΜΑ / HOT CHOCOLATE",
                         "price": "€ 3,80 "
                     },
                     {
-                        "title":"ΚΡΥΟ ΤΣΑΙ ΑΡΙΖΟΝΑ / ARIZONA ICED TEA",
+                        "description":"ΚΡΥΟ ΤΣΑΙ ΑΡΙΖΟΝΑ / ARIZONA ICED TEA",
                         "price": "€ 3,30 "
                     },
                     {
-                        "title":"ΤΣΑΙ / TEA",
+                        "description":"ΤΣΑΙ / TEA",
                         "price": "€ 2,20 "
                     },
                     {
-                        "title":"ΑΝΑΨΥΚΤΙΚΑ / SOFT DRINKS",
+                        "description":"ΑΝΑΨΥΚΤΙΚΑ / SOFT DRINKS",
                         "price": "€ 1,70 "
                     },
                     {
-                        "title":"ΦΥΣΙΚΟΣ ΧΥΜΟΣ ΠΟΡΤΟΚΑΛΙ / FRESH ORANGE JUICE",
+                        "description":"ΦΥΣΙΚΟΣ ΧΥΜΟΣ ΠΟΡΤΟΚΑΛΙ / FRESH ORANGE JUICE",
                         "price": "€ 4,00 "
                     },
                     {
-                        "title":"ΦΥΣΙΚΟΣ ΧΥΜΟΣ ΛΕΜΟΝΙ / FRESH LEMON JUICE",
+                        "description":"ΦΥΣΙΚΟΣ ΧΥΜΟΣ ΛΕΜΟΝΙ / FRESH LEMON JUICE",
                         "price": "€ 4,00 "
                     },
                     {
-                        "title":"ΝΕΡΟ ΕΜΦΙΑΛΩΜΕΝΟ 1,50 LT / MINERAL WATER 1,10 LT",
+                        "description":"ΝΕΡΟ ΕΜΦΙΑΛΩΜΕΝΟ 1,50 LT / MINERAL WATER 1,10 LT",
                         "price": "€ 1,10 "
                     },
                     {
-                        "title":"ΝΕΡΟ ΕΜΦΙΑΛΩΜΕΝΟ 0,50 LT / MINERAL WATER 0,50 LT",
+                        "description":"ΝΕΡΟ ΕΜΦΙΑΛΩΜΕΝΟ 0,50 LT / MINERAL WATER 0,50 LT",
                         "price": "€ 0,60 "
                     },
                     {
-                        "title":"ΑΝΘΡΑΚΟΥΧΟ ΝΕΡΟ 0,33 LT / SPARKLING WATER 0,33 LT",
+                        "description":"ΑΝΘΡΑΚΟΥΧΟ ΝΕΡΟ 0,33 LT / SPARKLING WATER 0,33 LT",
                         "price": "€ 1,70 "
                     }
                 ]
@@ -158,63 +158,63 @@
                 "name": "DRINKS / WINE",
                 "menuItems":[
                     {
-                        "title":"ΜΠΥΡΑ / BEER 0,50 LT",
+                        "description":"ΜΠΥΡΑ / BEER 0,50 LT",
                         "price": "€ 3,80 "
                     }, 
                     {
-                        "title":"ΟΥΖΟ ΠΟΤΗΡΙ / OUZO",
+                        "description":"ΟΥΖΟ ΠΟΤΗΡΙ / OUZO",
                         "price": "€ 3,30 "
                     }, 
                     {
-                        "title":"ΟΥΖΟ ΚΑΡΑΦΑΚΙ / OUZO BOTTLE 200 ML",
+                        "description":"ΟΥΖΟ ΚΑΡΑΦΑΚΙ / OUZO BOTTLE 200 ML",
                         "price": "€ 6,60 "
                     }, 
                     {
-                        "title":"VODKA",
+                        "description":"VODKA",
                         "price": "€ 7,50 "
                     }, 
                     {
-                        "title":"WHISKEY",
+                        "description":"WHISKEY",
                         "price": "€ 7,50 "
                     }, 
                     {
-                        "title":"BACARDI",
+                        "description":"BACARDI",
                         "price": "€ 7,50 "
                     }, 
                     {
-                        "title":"GIN",
+                        "description":"GIN",
                         "price": "€ 7,50 "
                     }, 
                     {
-                        "title":"MARTINI",
+                        "description":"MARTINI",
                         "price": "€ 7,50 "
                     }, 
                     {
-                        "title":"ΜΟΣΧΟΦΙΛΕΡΟ ΜΠΟΥΤΑΡΗ ΛΕΥΚΟ / BOUTARI MOSCHOFILERO WHITE 187 ML",
+                        "description":"ΜΟΣΧΟΦΙΛΕΡΟ ΜΠΟΥΤΑΡΗ ΛΕΥΚΟ / BOUTARI MOSCHOFILERO WHITE 187 ML",
                         "price": "€ 5,50 "
                     }, 
                     {
-                        "title":"ΜΟΣΧΟΦΙΛΕΡΟ ΜΠΟΥΤΑΡΗ ΛΕΥΚΟ / BOUTARI MOSCHOFILERO WHITE 750 ML",
+                        "description":"ΜΟΣΧΟΦΙΛΕΡΟ ΜΠΟΥΤΑΡΗ ΛΕΥΚΟ / BOUTARI MOSCHOFILERO WHITE 750 ML",
                         "price": "€ 16,50 "
                     }, 
                     {
-                        "title":"ΑΓΙΩΡΓΙΤΙΚΟ ΜΠΟΥΤΑΡΗ ΚΟΚΚΙΝΟ / BOUTARI AGIORGITIKO RED 187 ML",
+                        "description":"ΑΓΙΩΡΓΙΤΙΚΟ ΜΠΟΥΤΑΡΗ ΚΟΚΚΙΝΟ / BOUTARI AGIORGITIKO RED 187 ML",
                         "price": "€ 5,50 "
                     }, 
                     {
-                        "title":"ΜΑΚΕΔΟΝΙΚΟΣ ΤΣΑΝΤΑΛΗ ΚΟΚΚΙΝΟ / TSANTALI MAKEDONIKOS RED 750 ML",
+                        "description":"ΜΑΚΕΔΟΝΙΚΟΣ ΤΣΑΝΤΑΛΗ ΚΟΚΚΙΝΟ / TSANTALI MAKEDONIKOS RED 750 ML",
                         "price": "€ 13,80 "
                     }, 
                     {
-                        "title":"ΚΑΤΩΓΙ ΑΒΕΡΩΦ ΚΟΚΚΙΝΟ / KATOGI AVEROFF RED 750 ML",
+                        "description":"ΚΑΤΩΓΙ ΑΒΕΡΩΦ ΚΟΚΚΙΝΟ / KATOGI AVEROFF RED 750 ML",
                         "price": "€ 20,00 "
                     }, 
                     {
-                        "title":"ΡΕΤΣΙΝΑ ΜΑΛΑΜΑΤΙΝΑ / RETSINA MALAMATINA 500 ML",
+                        "description":"ΡΕΤΣΙΝΑ ΜΑΛΑΜΑΤΙΝΑ / RETSINA MALAMATINA 500 ML",
                         "price": "€ 6,00 "
                     }, 
                     {
-                        "title":"APEROL SPRITZ",
+                        "description":"APEROL SPRITZ",
                         "price": "€ 8,50 "
                     }
                 ]

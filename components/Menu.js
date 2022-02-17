@@ -5,8 +5,8 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
       <h2>{data.name}</h2>
       <ul>
         {data.menuItems.map(element => (
-          <li key={element.title}>
-            {element.title}
+          <li key={element.description}>
+            {element.description}
             <span className="price">{element.price}</span>
           </li>
         ))}
