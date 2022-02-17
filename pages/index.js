@@ -3,6 +3,7 @@ import fetch from "isomorphic-unfetch";
 
 import Menu from "../components/Menu";
 import Info from "../components/Info";
+import Footer from "../components/Footer";
 
 export default class Index extends React.Component {
   static async getInitialProps() {
@@ -26,6 +27,7 @@ export default class Index extends React.Component {
             }
         `}</style>
         <Info />
+        <Footer />
         </React.Fragment>
   );
   }

@@ -48,6 +48,7 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
           font-size: 0.8rem;
           justify-content:flex-start;
           flex-wrap: nowrap;
+          text-align:center;
         }
       }
       .subcategory {
@@ -60,6 +61,11 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
         .subcategory {
           flex-direction: column;
         }
+      }
+      @media(max-width: 390px){
+          .subcategory{
+              text-align:center;
+          }
       }
       .subcategory > h2 {
         font-size: 3rem;
@@ -93,6 +99,11 @@ const Logo = () => (
         font-family: "Proxima Nova", sans-serif;
         font-weight: 300;
         font-size: 5rem;
+      }
+      @media(max-width: 390px){
+          h1{
+              text-align:center;
+          }
       }
     `}</style>  
     </h1>
@@ -140,8 +151,6 @@ const Logo = () => (
           .menu {
             color: #202021;
             background: #eee;
-            /* System font stack: https://css-tricks.com/snippets/css/system-font-stack/ */
-            /* font-family: "Proxima Nova", "Open Sans", sans-serif; */
             padding: 10px;
             max-width: 100%;
             overflow: hidden;
