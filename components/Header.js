@@ -1,8 +1,19 @@
 import React from 'react'
+import logo from '../images/logo.jpeg'
+import Image from 'next/image'
+
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
+            {/* <Image
+                src={logo}
+                alt="Acropol Hotel Logo"
+                width="80px"
+                height="80px"
+                layout='intrinsic'
+                className='logo'
+            />  */}
         <h1>
             Menu
             <style jsx>{`
@@ -14,6 +25,8 @@ const Header = () => {
                     font-weight: 300;
                     font-size: 5rem;
                     text-align:center;
+                    text-transform: uppercase;
+                    margin-top:2rem;
                 }
                 @media(max-width: 414px){
                     h1{
@@ -32,6 +45,8 @@ const Header = () => {
                     font-weight: 300;
                     font-size: 2rem;
                     text-align:center;
+                    margin-bottom:2rem;
+                    letter-spacing: 0.15rem;
                 }
                 @media(max-width: 414px){
                     h2{
