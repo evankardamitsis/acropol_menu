@@ -90,31 +90,31 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
     </div>
   );
 
-const Logo = () => (
-    <h1>
-      MENU
-      <style jsx>{`
-      h1 {
-        margin: 0;
-        grid-column-start: 2;
-        padding: 20px;
-        font-family: "Proxima Nova", sans-serif;
-        font-weight: 300;
-        font-size: 5rem;
-      }
-      @media(max-width: 414px){
-          h1{
-              text-align:center;
-          }
-      }
-    `}</style>  
-    </h1>
-  );
+// const Logo = () => (
+//     <h1>
+//       MENU
+//       <style jsx>{`
+//       h1 {
+//         margin: 0;
+//         grid-column-start: 2;
+//         padding: 20px;
+//         font-family: "Proxima Nova", sans-serif;
+//         font-weight: 300;
+//         font-size: 5rem;
+//       }
+//       @media(max-width: 414px){
+//           h1{
+//               text-align:center;
+//           }
+//       }
+//     `}</style>  
+//     </h1>
+//   );
   
 
   const Category = ({ data = { subcategories: [] }, ...props }) => (
     <section className="category" {...props}>
-      <Logo />
+      {/* <Logo /> */}
       {data.subcategories.map(subcategory => (
         <Subcategory key={subcategory.name} data={subcategory} />
       ))}

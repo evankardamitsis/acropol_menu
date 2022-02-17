@@ -4,6 +4,7 @@ import fetch from "isomorphic-unfetch";
 import Menu from "../components/Menu";
 import Info from "../components/Info";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default class Index extends React.Component {
   static async getInitialProps() {
@@ -34,7 +35,8 @@ export default class Index extends React.Component {
   }
   render() {
       return(
-        <React.Fragment>    
+        <React.Fragment> 
+          <Header />   
         <Menu data={this.props.data} />
         <style global jsx>{`
             html,
