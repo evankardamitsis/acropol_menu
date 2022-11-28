@@ -9,7 +9,7 @@ import Header from "../components/Header";
 export default class Index extends React.Component {
   static async getInitialProps() {
     const url =
-      "https://api-eu-central-1.graphcms.com/v2/ckzqq89965f8r01z2anrrakj3/master";
+      "https://api-eu-central-1.hygraph.com/v2/ckzqq89965f8r01z2anrrakj3/master";
     const options = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -27,30 +27,30 @@ export default class Index extends React.Component {
             }
           }
         }
-        `
-      })
+        `,
+      }),
     };
-    const { data } = await fetch(url, options).then(res => res.json());
+    const { data } = await fetch(url, options).then((res) => res.json());
     return { data };
   }
   render() {
-      return(
-        <React.Fragment> 
-          <Header />   
+    return (
+      <React.Fragment>
+        <Header />
         <Menu data={this.props.data} />
         <style global jsx>{`
-            html,
-            body {
+          html,
+          body {
             padding: 0;
             margin: 0;
-            }
-            * {
+          }
+          * {
             box-sizing: border-box;
-            }
+          }
         `}</style>
         <Info />
         <Footer />
-        </React.Fragment>
-  );
+      </React.Fragment>
+    );
   }
 }
