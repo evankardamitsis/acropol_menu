@@ -1,226 +1,191 @@
 {
-    "data":{
-        "categories": [
+    "data": {
+      "subcategories": [
+        {
+          "id": "ckzqqsvwwdyqg0c05ejv5okbv",
+          "name": "salads & snacks",
+          "menuItems": [
             {
-                "name": "Food",
-                "subcategories":[
-                    {
-                       "name": "SNACKS / SALAD / PASTA",
-                        "menuItems": [
-                    {
-                        "description":"ΤΟΣΤ ΜΕ ΖΑΜΠΟΝ Ή ΓΑΛΟΠΟΥΛΑ & ΤΥΡΙ / HAM OR TURKEY & CHEESE TOAST",
-                        "price": "€ 3,30 "
-                    },
-                    {
-                        "description":"CLUB SANDWICH ΜΕ ΤΗΓΑΝΙΤΕΣ ΠΑΤΑΤΕΣ / CLUB SANDWICH WITH FRENCH FRIES",
-                        "price": "€ 6,60 "
-                    },
-                    {
-                        "description":"ΟΜΕΛΕΤΑ / OMELET",
-                        "price": "€ 5,00 "
-                    },
-                    {
-                        "description":"ΟΜΕΛΕΤΑ ΜΕ ΤΥΡΙ ΖΑΜΠΟΝ ΝΤΟΜΑΤΑ & ΠΙΠΕΡΙΑ / HAM & CHEESE OMELET WITH TOMATO &  BELL PEPPER",
-                        "price": "€ 6,60 "
-                    },
-                    {
-                        "description":"ΠΑΤΑΤΕΣ ΤΗΓΑΝΙΤΕΣ / FRENCH FRIES",
-                        "price": "€ 4,40 "
-                    },
-                    {
-                        "description":"ΣΑΛΑΤΑ ΧΩΡΙΑΤΙΚΗ / GREEK TRADITIONAL SALAD",
-                        "price": "€ 7,00 "
-                    },
-                    {
-                        "description":"ΣΑΛΑΤΑ ΚΑΙΣΑΡΑ / CAESAR'S SALAD",
-                        "price": "€ 8,00 "
-                    },
-                    {
-                        "description":"ΚΡΗΤΙΚΟΣ ΝΤΑΚΟΣ / CRETAN DAKOS (rusks with tomato, feta cheese & capers)",
-                        "price": "€ 7,70 "
-                    },
-                    {
-                        "description":"ΣΑΛΑΤΑ ΕΠΟΧΗΣ / SEASONAL SALAD",
-                        "price": "€ 5,50 "
-                    },
-                    {
-                        "description":"ΣΟΥΠΑ ΗΜΕΡΑΣ / SOUP OF THE DAY",
-                        "price": "€ 5,50 "
-                    },
-                    {
-                        "description":"ΣΠΑΓΓΕΤΙ ΜΠΟΛΟΝΕΖ / SPAGHETTI BOLOGNESE",
-                        "price": "€ 8,00 "
-                    },
-                    {
-                        "description":"ΣΠΑΓΓΕΤΙ ΝΑΠΟΛΙΤΑΝΑ / SPAGHETTI NAPOLETANA",
-                        "price": "€ 6,60 "
-                    },
-                    {
-                        "description":"ΣΠΑΓΓΕΤΙ ΠΕΣΤΟ / SPAGHETTI PESTO",
-                        "price": "€ 8,00 "
-                    },
-                    {
-                        "description":"ΦΡΕΣΚΑ ΦΡΟΥΤΑ ΕΠΟΧΗΣ / FRESH FRUITS OF THE SEASON",
-                        "price": "€ 5,50 "
-                    },
-                    {
-                        "description":"ΓΙΑΟΥΡΤΙ ΜΕ ΜΕΛΙ / YOGURT WITH HONEY",
-                        "price": "€ 4,00 "
-                    },
-                    {
-                        "description":"ΓΛΥΚΟ ΗΜΕΡΑΣ / DESSERT OF THE DAY",
-                        "price": "€ 5,50 "
-                    }
-                ]
+              "id": "ckzqqysvkf2rl0b486d17mfz6"
             },
             {
-                "name": "COFFEE / SOFT DRINKS / BEVERAGES",
-                "menuItems":[
-                    {
-                        "description":"ΚΑΦΕΣ ΕΛΛΗΝΙΚΟΣ / GREEK COFFEE",
-                        "price": "€ 2,20 "
-                    },
-                    {
-                        "description":"ΚΑΦΕΣ ΕΛΛΗΝΙΚΟΣ ΔΙΠΛΟΣ / DOUBLE GREEK COFFEE",
-                        "price": "€ 3,30 "
-                    },
-                    {
-                        "description":"NESCAFÉ / FRAPPÉ",
-                        "price": "€ 3,30 "
-                    },
-                    {
-                        "description":"ESPRESSO",
-                        "price": "€ 2,80 "
-                    },
-                    {
-                        "description":"DOUBLE ESPRESSO",
-                        "price": "€ 3,30 "
-                    },
-                    {
-                        "description":"CAPPUCCINO",
-                        "price": "€ 3,80 "
-                    },
-                    {
-                        "description":"DOUBLE CAPPUCCINO",
-                        "price": "€ 4,40 "
-                    },
-                    {
-                        "description":"FREDDO ESPRESSO",
-                        "price": "€ 3,30 "
-                    },
-                    {
-                        "description":"FREDDO CAPPUCCINO",
-                        "price": "€ 3,80 "
-                    },
-                    {
-                        "description":"ΚΑΦΕΣ ΦΙΛΤΡΟΥ / FILTERED COFFEE",
-                        "price": "€ 3,30 "
-                    },
-                    {
-                        "description":"ΣΟΚΟΛΑΤΑ ΡΟΦΗΜΑ / HOT CHOCOLATE",
-                        "price": "€ 3,80 "
-                    },
-                    {
-                        "description":"ΚΡΥΟ ΤΣΑΙ ΑΡΙΖΟΝΑ / ARIZONA ICED TEA",
-                        "price": "€ 3,30 "
-                    },
-                    {
-                        "description":"ΤΣΑΙ / TEA",
-                        "price": "€ 2,20 "
-                    },
-                    {
-                        "description":"ΑΝΑΨΥΚΤΙΚΑ / SOFT DRINKS",
-                        "price": "€ 1,70 "
-                    },
-                    {
-                        "description":"ΦΥΣΙΚΟΣ ΧΥΜΟΣ ΠΟΡΤΟΚΑΛΙ / FRESH ORANGE JUICE",
-                        "price": "€ 4,00 "
-                    },
-                    {
-                        "description":"ΦΥΣΙΚΟΣ ΧΥΜΟΣ ΛΕΜΟΝΙ / FRESH LEMON JUICE",
-                        "price": "€ 4,00 "
-                    },
-                    {
-                        "description":"ΝΕΡΟ ΕΜΦΙΑΛΩΜΕΝΟ 1,50 LT / MINERAL WATER 1,10 LT",
-                        "price": "€ 1,10 "
-                    },
-                    {
-                        "description":"ΝΕΡΟ ΕΜΦΙΑΛΩΜΕΝΟ 0,50 LT / MINERAL WATER 0,50 LT",
-                        "price": "€ 0,60 "
-                    },
-                    {
-                        "description":"ΑΝΘΡΑΚΟΥΧΟ ΝΕΡΟ 0,33 LT / SPARKLING WATER 0,33 LT",
-                        "price": "€ 1,70 "
-                    }
-                ]
+              "id": "ckzqqz92we9os0a50i5h0a5yz"
             },
             {
-                "name": "DRINKS / WINE",
-                "menuItems":[
-                    {
-                        "description":"ΜΠΥΡΑ / BEER 0,50 LT",
-                        "price": "€ 3,80 "
-                    }, 
-                    {
-                        "description":"ΟΥΖΟ ΠΟΤΗΡΙ / OUZO",
-                        "price": "€ 3,30 "
-                    }, 
-                    {
-                        "description":"ΟΥΖΟ ΚΑΡΑΦΑΚΙ / OUZO BOTTLE 200 ML",
-                        "price": "€ 6,60 "
-                    }, 
-                    {
-                        "description":"VODKA",
-                        "price": "€ 7,50 "
-                    }, 
-                    {
-                        "description":"WHISKEY",
-                        "price": "€ 7,50 "
-                    }, 
-                    {
-                        "description":"BACARDI",
-                        "price": "€ 7,50 "
-                    }, 
-                    {
-                        "description":"GIN",
-                        "price": "€ 7,50 "
-                    }, 
-                    {
-                        "description":"MARTINI",
-                        "price": "€ 7,50 "
-                    }, 
-                    {
-                        "description":"ΜΟΣΧΟΦΙΛΕΡΟ ΜΠΟΥΤΑΡΗ ΛΕΥΚΟ / BOUTARI MOSCHOFILERO WHITE 187 ML",
-                        "price": "€ 5,50 "
-                    }, 
-                    {
-                        "description":"ΜΟΣΧΟΦΙΛΕΡΟ ΜΠΟΥΤΑΡΗ ΛΕΥΚΟ / BOUTARI MOSCHOFILERO WHITE 750 ML",
-                        "price": "€ 16,50 "
-                    }, 
-                    {
-                        "description":"ΑΓΙΩΡΓΙΤΙΚΟ ΜΠΟΥΤΑΡΗ ΚΟΚΚΙΝΟ / BOUTARI AGIORGITIKO RED 187 ML",
-                        "price": "€ 5,50 "
-                    }, 
-                    {
-                        "description":"ΜΑΚΕΔΟΝΙΚΟΣ ΤΣΑΝΤΑΛΗ ΚΟΚΚΙΝΟ / TSANTALI MAKEDONIKOS RED 750 ML",
-                        "price": "€ 13,80 "
-                    }, 
-                    {
-                        "description":"ΚΑΤΩΓΙ ΑΒΕΡΩΦ ΚΟΚΚΙΝΟ / KATOGI AVEROFF RED 750 ML",
-                        "price": "€ 20,00 "
-                    }, 
-                    {
-                        "description":"ΡΕΤΣΙΝΑ ΜΑΛΑΜΑΤΙΝΑ / RETSINA MALAMATINA 500 ML",
-                        "price": "€ 6,00 "
-                    }, 
-                    {
-                        "description":"APEROL SPRITZ",
-                        "price": "€ 8,50 "
-                    }
-                ]
-              }
-            ]
-          }
-        ]
-      }
+              "id": "ckzqqzlfcdrsk0b57xxl7q862"
+            },
+            {
+              "id": "ckzqr01moe66f0d68trkq6wgk"
+            },
+            {
+              "id": "ckzqr0eqwf3lp0b48j70osim4"
+            },
+            {
+              "id": "ckzqr0u6gxo7t0c54egzyn8ud"
+            },
+            {
+              "id": "ckzqr18u8f3y40b48bqjbt0dn"
+            },
+            {
+              "id": "ckzqr1vzke2wt0c05hcf1dgyt"
+            },
+            {
+              "id": "ckzqr604we4md0c058yb96mel"
+            },
+            {
+              "id": "ckzqr8c8odw5c0b57dxyxzsgi"
+            },
+            {
+              "id": "ckzqr8q4oeape0d68u03sljmz"
+            },
+            {
+              "id": "ckzqr938wf7u50b484vxgypzw"
+            }
+          ]
+        },
+        {
+          "id": "ckzqqtf7cf0er0b48qzwmipyq",
+          "name": "coffee / soft drinks / beverages",
+          "menuItems": [
+            {
+              "id": "ckzqr9thce6ka0c05cyc9tm1b"
+            },
+            {
+              "id": "ckzqratqwdx6u0b57rxj4ajtj"
+            },
+            {
+              "id": "ckzqrbekwxson0c54j73t55fs"
+            },
+            {
+              "id": "ckzqrbxvcefwt0a50ura2jhrq"
+            },
+            {
+              "id": "ckzqrch5sxta10c5467hrgzze"
+            },
+            {
+              "id": "ckzqrdec8ecow0d68f1duz256"
+            },
+            {
+              "id": "ckzqrdt00xu6i0c54l4da9jgu"
+            },
+            {
+              "id": "ckzqre4kodz080b575bm0du0c"
+            },
+            {
+              "id": "ckzqreg5cdzb60b579mnx869e"
+            },
+            {
+              "id": "ckzqreu1cedgo0d6811z9qs1a"
+            },
+            {
+              "id": "ckzqrf9gweic50a50e5w3v6gc"
+            },
+            {
+              "id": "ckzqrg7f4eeqb0d68c07g91rm"
+            },
+            {
+              "id": "ckzqrgnmgeahj0c05htda6zz2"
+            },
+            {
+              "id": "ckzqrh5dcejis0a50dnx96aji"
+            },
+            {
+              "id": "ckzqrhihkefpu0d68k9nn33g1"
+            },
+            {
+              "id": "ckzqrhuu0xxn90c54u8r1bbnp"
+            },
+            {
+              "id": "ckzqribt4ekhf0a501m7yospy"
+            },
+            {
+              "id": "ckzqrir8oxyhd0c54z6ipac6x"
+            },
+            {
+              "id": "ckzqrj5wgeh6v0d68a9f9bggp"
+            }
+          ]
+        },
+        {
+          "id": "ckzqqtp8ge3kj0d68fm11js2i",
+          "name": "drinks / wine",
+          "menuItems": [
+            {
+              "id": "ckzqrjt1sxzcp0c54cao5g049"
+            },
+            {
+              "id": "ckzqrk5e8elvy0a502bmvrj5w"
+            },
+            {
+              "id": "ckzqrkhqoei8t0d68zbxvcycd"
+            },
+            {
+              "id": "ckzqrku34ffe90b48t3csii2r"
+            },
+            {
+              "id": "ckzqrl77ce4nc0b57yobttpz6"
+            },
+            {
+              "id": "ckzqrli08y0y70c54gx9lht9n"
+            },
+            {
+              "id": "ckzqrltkwy19f0c54trym385o"
+            },
+            {
+              "id": "ckzqrmmwgek9e0d68iezqbt7z"
+            },
+            {
+              "id": "ckzqrmz8weojx0a50t4swhyfd"
+            },
+            {
+              "id": "ckzqrnblce7450b578p58cuob"
+            },
+            {
+              "id": "ckzqrnr0we7fd0b5716s5j4bt"
+            },
+            {
+              "id": "ckzqro454fi3j0b48cwd7f4x7"
+            },
+            {
+              "id": "ckzqroghkepmy0a50mdtzdjn1"
+            },
+            {
+              "id": "ckzqrotlsepva0a50m581ca5a"
+            },
+            {
+              "id": "ckzqrp6q0epzm0a50qdo3ymmn"
+            }
+          ]
+        },
+        {
+          "id": "clb0ogv69kl740bt5xq5esqnv",
+          "name": "meat",
+          "menuItems": []
+        },
+        {
+          "id": "clb0owjdylyhp0aujgmqqhodh",
+          "name": "pasta",
+          "menuItems": [
+            {
+              "id": "ckzqr71y0edxn0a507naaoq56"
+            },
+            {
+              "id": "ckzqr7glsxr3b0c549pyp56qy"
+            },
+            {
+              "id": "ckzqr7v9ke5m30c058jep8joq"
+            }
+          ]
+        },
+        {
+          "id": "clb0p6nuzl9nh0bt54y4spmrb",
+          "name": "soups",
+          "menuItems": [
+            {
+              "id": "ckzqr6lqoe4xa0c05eapvhv6u"
+            }
+          ]
+        }
+      ]
     }
+  }
