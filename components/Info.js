@@ -3,7 +3,7 @@ import React from "react";
 const Info = () => {
   return (
       <div className="info">
-          <h4>Η υπηρεσία έχει επιβάρυνση +2.00€ ανά παραγγελία</h4>
+          <h4>Η υπηρεσία έχει επιβάρυνση +2.00€ ανά παραγγελία / Room Service fee is +2.00€ per order</h4>
           <h2>ROOM SERVICE AVAILABLE 12:00 - 21:30</h2>
           <p>
               Στις ανωτέρω τιμές συμπεριλαμβάνεται ο ΦΠΑ / All taxes are included in
