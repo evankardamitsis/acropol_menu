@@ -15,8 +15,17 @@ const Info = () => {
               payment has not been received.
           </p>
           <p>
-              Οι τηγανιτές πατάτες είναι τηγανισμένες με ηλιέλαιο / French fries are
-              fried in sunflower oil.
+              Στις σαλάτες και στα μαγειρευτά μας χρησιμοποιούμε εξαιρετικό παρθένο
+              ελαιόλαδο . Για το τηγάνισμα χρησιμοποιούμε ηλιέλαιο υψηλής ποιότητας /
+              We use extra virgin olive oil in our salads and cooked meals . For frying
+              we use high quality sunflower oil.
+          </p>
+          <p>
+              Παρακαλούμε ενημερώστε το προσωπικό μας για τυχόν αλλεργίες ή δυσανεξίες /
+              Please inform our staff of any food allergies or intolerances .
+          </p>
+          <p>
+              Το προϊόν είναι κατεψυγμένο / Frozen product .
           </p>
           <style jsx>{`
               .info {
