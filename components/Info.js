@@ -25,7 +25,7 @@ const Info = () => {
               Please inform our staff of any food allergies or intolerances .
           </p>
           <p>
-              Το προϊόν είναι κατεψυγμένο / Frozen product .
+              * Το προϊόν είναι κατεψυγμένο / * Frozen product .
           </p>
           <style jsx>{`
               .info {
